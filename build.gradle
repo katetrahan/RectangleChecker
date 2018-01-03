@@ -1,0 +1,19 @@
+group 'com.epicodus.student'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+archivesBaseName = "rectangle"
+version = '1.0'
+mainClassName = "Rectangle"
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
